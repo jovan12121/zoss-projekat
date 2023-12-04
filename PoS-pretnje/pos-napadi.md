@@ -1,6 +1,6 @@
 # Proof of Stake
 
-Proof of Stake je koncenzus algoritam u blockchain mrezama za validaciju i autentikaciju tranzakcija i kopanje novih blokova.
+Proof of Stake je koncenzus algoritam u blockchain mrezama za validaciju i autentikaciju transakcija i kopanje novih blokova.
 Osnovne akcije u ovom algoritmu su
 
 - Staking
