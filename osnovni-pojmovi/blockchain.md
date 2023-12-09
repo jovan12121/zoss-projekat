@@ -3,6 +3,7 @@
 ## Pregled dokumenta
 
 - [Funkcije heširanja](#funkcije-heširanja)
+- [Merkle stablo](#merkle-stablo)
 - [Blok](#blok)
 - [Suština sistema](#blockchain-sustina)
 
@@ -11,6 +12,10 @@
 Heš funkcije, odnosno funkcije heširanja su matematički algoritmi koji mapiraju poruku proizvoljne veličine na niz bitova fiksirane veličine koji se naziva heš vrednost[[1]](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b46f9e87038b96769f47d819e204e6db1190e00b). Algoritmi su osmišljeni tako da budu jednosmerni, odnosno da se za svaku poruku veoma lako odredi heširana vrednost, prateći korake algoritma, ali je gotovo nemoguće od heširane vrednosti dobiti originalnu poruku. Štaviše, jedan od najboljih načina za određivanje početne poruke od heširane vrednosti je nagađanje. Funkcija heširanja mora biti deterministička, odnosno takva da se od identičnih početnih poruka uvek dobija identična heširana vrednost. Osim toga, dobra funkcija heširanja mora u kratkom vremenskom roku da dobija izlaz. Za dve različite početne poruke, ne bi smeo da se dogodi slučaj kada se za njihovu haširanu vrednost dobije isti niz bitova, i tada bi heš funkcija gubila smisao. Svaka mala promena u početnoj poruci ulaza bi trebala da promeni haširanu vrednost u potpunosti, tako da se novodobijena vrednost ne dovodi u slučaj sa vrednošću pre promene. Ove funkcije su veoma značajne u današnjem računarstvu, kao i kriptografiji, i osnova su bez koje blokčejn tehnologije ne bi mogle da funkcionišu. Najpoznatije heš funkcije su MD5, SHA-1, SHA-2, SHA-3.
 
 ![Funkcije heširanja](../Literatura/slike/hash-funkcije.png)
+
+### <a name="merkle-stablo">Merkle stablo</a>
+
+todo...
 
 ### <a name="blok">Blok</a>
 
