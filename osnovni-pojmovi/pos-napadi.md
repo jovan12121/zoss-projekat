@@ -13,7 +13,7 @@ Osnovne akcije u ovom algoritmu su
   - Kada je blok uspesno iskopan, nagrade od naknada transakcija se dele medju ucesnicima Stake Pool-a, u zavisnost od njihovih zalozenih sredstava
     <br>
 
-![PoS](slike/PoS-drawio.jpg)
+![PoS](../Literatura/slike/PoS-drawio.jpg)
 
 ### Napadi u PoS sistemu
 
