@@ -6,6 +6,7 @@
 Todo
 [[4] Sheping Zhai et al 2019 J. Phys "Research on the Application of Cryptography on the Blockchain"](https://sci-hub.se/https://iopscience.iop.org/article/10.1088/1742-6596/1168/3/032077/meta)
 [[5] Mirzahi, Koren, Rottenstreich, "Optimizing Merkle Proof Size for Blockchain Transactions"](https://sci-hub.se/https://ieeexplore.ieee.org/abstract/document/9352820?fbclid=IwAR1M8aM4yvF5eks_PrMsQnruIq36Bmi5vzgGT_n-IhfdCYmsRGsd77PXIdc)
+[[6] Fahad Saleh, Blockchain Without Waste: Proof-of-Stake\*](https://www.researchgate.net/profile/Fahad-Saleh/publication/325891130_Blockchain_Without_Waste_Proof-of-Stake/links/60998115a6fdccaebd208b08/Blockchain-Without-Waste-Proof-of-Stake.pdf)
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
 - [Evaluation of Performance and Security of Proof of Work and Proof of Stake using Blockchain](https://ieeexplore.ieee.org/abstract/document/9388487)<br/>
