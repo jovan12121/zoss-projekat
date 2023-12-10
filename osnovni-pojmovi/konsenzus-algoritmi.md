@@ -19,8 +19,16 @@ Proces integracije PoW mehanizma u sistem digitalne valute:
 5. Ostali učesnici verifikuju novonastali blok
 6. Ukoliko su transakcije unutar bloka validne, heš bloka zadovoljava trenutnu težinu iskopavanja, i lista transakcija u bloku je najduža među svim "forkovima" mreže, nemaliciozni učesnici mreže će konstruisati sledeći blok nakon ovog.
 
-Prednosti:
-Mane:
+#### Prednosti
+
+1. Visok nivo decentralizacije. Algoritam je jednostavan i lak za implementaciju, pridruživanje novih nodova sistemu je jednostavan
+2. Visok nivo bezbednosti. Narušavanje sistema zahteva veliku investiciju.
+3. Poverenje. Izbor kreatora bloka se rešava tako što nodovi rešavaju heš funkcije. Finalni proces generisanja i verifikacije konsenzusa je čisto matematički problem. Mreža se može uskladiti i postići konsenzus bez potrebe za razmenjivanjem dodatnih informacija. U celom procesu, nije potrebna ljudska uključenost.
+
+#### Mane
+
+1. Dugačko vreme potvrde bloka. Kako bi se sigurno obezbedio nivo decentralizacije, vreme potvrde bloka je izazovno i teško svesti i skratiti.
+2. Trošenje resursa. Računarska moć se troši u trci između kopača u mreži, gde će samo jedan uspeti da pronađe odgovarajuću vrednost.
 
 ### PoS in detail
 

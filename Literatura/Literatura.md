@@ -4,6 +4,8 @@
 [[2] Knirsch, Fabian; Unterweger, Andread; Engel, Dominik (2019). "Implementing a blockchain from scratch: why, how, and what we learned". EURASIP Journal on Information Security. 2019](https://jis-eurasipjournals.springeropen.com/articles/10.1186/s13635-019-0085-3)
 [[3] Wang, Huang, Wang, Chen, Zhang and Li He "A Comparative Study of Blockchain Consensus Algorithms"](https://iopscience.iop.org/article/10.1088/1742-6596/1437/1/012007/pdf)
 Todo
+[[4] Sheping Zhai et al 2019 J. Phys "Research on the Application of Cryptography on the Blockchain"](https://sci-hub.se/https://iopscience.iop.org/article/10.1088/1742-6596/1168/3/032077/meta)
+[[5] Mirzahi, Koren, Rottenstreich, "Optimizing Merkle Proof Size for Blockchain Transactions"](https://sci-hub.se/https://ieeexplore.ieee.org/abstract/document/9352820?fbclid=IwAR1M8aM4yvF5eks_PrMsQnruIq36Bmi5vzgGT_n-IhfdCYmsRGsd77PXIdc)
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
 - [Evaluation of Performance and Security of Proof of Work and Proof of Stake using Blockchain](https://ieeexplore.ieee.org/abstract/document/9388487)<br/>
