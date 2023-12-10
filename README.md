@@ -3,7 +3,7 @@
 ### Osnovni pojmovi
 
 - [Blockchain](/osnovni-pojmovi/blockchain.md) (in progress)
-- Konsenzus algoritmi (in progress)
+- [Konsenzus algoritmi](/osnovni-pojmovi/konsenzus-algoritmi.md) (in progress)
 - Proof of Stake (in progress)
 - [PoS vulnerabilities](/osnovni-pojmovi/pos-napadi.md) (in progress)
 
