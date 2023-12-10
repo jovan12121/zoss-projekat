@@ -15,7 +15,19 @@ Heš funkcije, odnosno funkcije heširanja su matematički algoritmi koji mapira
 
 ### <a name="merkle-stablo">Merkle stablo</a>
 
-todo...
+Merkleovo stablo[[4]](https://sci-hub.se/https://iopscience.iop.org/article/10.1088/1742-6596/1168/3/032077/meta) predstavlja binarno heš stablo čiji čvorovi čuvaju heš vrednosti. Prvobitna ideja tvorca Ralph Merkle-a je bila brza provera integriteta podataka velikih razmera. U blockchain tehnologiji se koristi za bezbedno čuvanje transakcija, gde pored toga što garantuje zaštitu od neovlašćenih izmena obezbeđuje i kompresiju podataka u vrednost zvanu Merkleov koren. Primer Merkle stabla je prikazan na slici. 
+
+![Merkle stablo](../Literatura/slike/merkle-stablo.png)
+
+Stablo se gradi rekurzivno, od listova prema korenu. Heš vrednost nekog čvora se dobija uz pomoć heš vrednosti njegove dece. Odnosno, početne heš vrednosti listova se dobiju od ulaznih podataka, hešuju se te se smeštaju u listove stabla, i dalje se u parovima udružuju kako bi se izračunala heš vrednost njihovih roditelja. Postupak se ponavlja sve dok se ne dođe do korena Merkleovog stabla. Čvorovi se hešuju pomoću kriptografske heš funkcije.
+
+Ako dođe do premene u nekom bloku ulaznih podataka, početna heš vrednost odgovarajućeg lista neće više biti ista, što dovodi do promene heš vrednosti njegovog roditelja. Svi čvorovi iznad lista neće imati istu heš vrednost pa samim tim ni koren. 
+
+Merkle proof[[5]](https://sci-hub.se/https://ieeexplore.ieee.org/abstract/document/9352820?fbclid=IwAR1M8aM4yvF5eks_PrMsQnruIq36Bmi5vzgGT_n-IhfdCYmsRGsd77PXIdc) je mehanizam u blockchain tehnologiji koji omogućava efikasnu proveru prisustva određenih podataka u Merkle stablu bez potrebe za prenosom celokupnog skupa podataka. Prilikom zahteva za verifikaciju određenog podatka, dobijaju se informacije o transakciji i njen heš. Nakon toga, Merkle proof, odnosno niz heš vrednosti koje čine putanju do Merkle korena omogućavaju lokalnu vrifikaciju na strani korisnika. Uz pomoć Merkle proof-a i heš vrednosti transakcije, rekonstruiše se putanja i samostalno se izračunava koren. Validacija se postiže upoređivanjem samostalno izračunatog korena sa vrednostima drugih učesnika, čime se potvrđuje prisustvo traženog podatka. Ovakav način obezbeđuje sigurnu verifikaciju transakcija.
+
+Na sledećoj slici je prikazan primer provere prisustva podatka B u stablu pomoću Merkle proof mehanizma, odnosno naznačeni su potrebni heševi za samostalno računanje korena.
+
+![Merkle stablo](../Literatura/slike/merkle-proof.png)
 
 ### <a name="blok">Blok</a>
 
