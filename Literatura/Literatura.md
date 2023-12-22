@@ -7,8 +7,8 @@
 [[5] Mirzahi, Koren, Rottenstreich, "Optimizing Merkle Proof Size for Blockchain Transactions"](https://sci-hub.se/https://ieeexplore.ieee.org/abstract/document/9352820?fbclid=IwAR1M8aM4yvF5eks_PrMsQnruIq36Bmi5vzgGT_n-IhfdCYmsRGsd77PXIdc)<br/>
 [[6] Fahad Saleh, Blockchain Without Waste: Proof-of-Stake\*](https://www.researchgate.net/profile/Fahad-Saleh/publication/325891130_Blockchain_Without_Waste_Proof-of-Stake/links/60998115a6fdccaebd208b08/Blockchain-Without-Waste-Proof-of-Stake.pdf)<br/>
 [[7] Evangelos Deirmentzoglou, Georgios Papakyriakopoulos, Constantinos Patsakis, "A Survey on Long-Range Attacks for Proof of Stake Protocols"](https://sci-hub.se/10.1109/access.2019.2901858)<br/>
-[[8] Wenting Li, Sebastien Andreina, Jens-Matthias Bohli, Ghassan Karame, "Securing Proof-Of-Stake Blockchain Protocols"](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols)
-
+[[8] Wenting Li, Sebastien Andreina, Jens-Matthias Bohli, Ghassan Karame, "Securing Proof-Of-Stake Blockchain Protocols"](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols)<br/>
+[[9] Peter Gaži, Aggelos Kiayias, Alexander Russell, "Stake-Bleeding Attacks on Proof-of-Stake Blockchains"](https://sci-hub.se/10.1109/cvcbt.2018.00015)
 ### To Do
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
