@@ -8,7 +8,8 @@
 [[6] Fahad Saleh, Blockchain Without Waste: Proof-of-Stake\*](https://www.researchgate.net/profile/Fahad-Saleh/publication/325891130_Blockchain_Without_Waste_Proof-of-Stake/links/60998115a6fdccaebd208b08/Blockchain-Without-Waste-Proof-of-Stake.pdf)<br/>
 [[7] Evangelos Deirmentzoglou, Georgios Papakyriakopoulos, Constantinos Patsakis, "A Survey on Long-Range Attacks for Proof of Stake Protocols"](https://sci-hub.se/10.1109/access.2019.2901858)<br/>
 [[8] Wenting Li, Sebastien Andreina, Jens-Matthias Bohli, Ghassan Karame, "Securing Proof-Of-Stake Blockchain Protocols"](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols)<br/>
-[[9] Peter Gaži, Aggelos Kiayias, Alexander Russell, "Stake-Bleeding Attacks on Proof-of-Stake Blockchains"](https://sci-hub.se/10.1109/cvcbt.2018.00015)
+[[9] Peter Gaži, Aggelos Kiayias, Alexander Russell, "Stake-Bleeding Attacks on Proof-of-Stake Blockchains"](https://sci-hub.se/10.1109/cvcbt.2018.00015)<br/>
+[[10] Quantum Attacks and Defenses for Proof-of-Stake](https://ieeexplore.ieee.org/abstract/document/9068181)
 ### To Do
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
@@ -16,5 +17,4 @@
 - [Securing Proof-of-Stake Blockchain Protocols](https://link.springer.com/chapter/10.1007/978-3-319-67816-0_17)<br/>
 - [Stake bleeding attack](https://dl.acm.org/doi/abs/10.1145/3327960.3332391)<br/>
 - [Formal Barriers to Longest-Chain Proof-of-Stake Protocols](https://dl.acm.org/doi/abs/10.1145/3328526.3329567)<br/>
-- [Blockchain Technology: Challenges and Security issues in Consensus algorithm](https://ieeexplore.ieee.org/abstract/document/9104132)<br/>
-- [Quantum Attacks and Defenses for Proof-of-Stake](https://ieeexplore.ieee.org/abstract/document/9068181)
+- [Blockchain Technology: Challenges and Security issues in Consensus algorithm](https://ieeexplore.ieee.org/abstract/document/9104132)
