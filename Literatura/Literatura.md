@@ -1,4 +1,4 @@
-### Literatura
+## Literatura
 
 [[1] Halevi, Shai, and Hugo Krawczyk. "Randomized hashing and digital signatures." (2006).](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=b46f9e87038b96769f47d819e204e6db1190e00b)<br/>
 [[2] Knirsch, Fabian; Unterweger, Andread; Engel, Dominik (2019). "Implementing a blockchain from scratch: why, how, and what we learned". EURASIP Journal on Information Security. 2019](https://jis-eurasipjournals.springeropen.com/articles/10.1186/s13635-019-0085-3)<br/>
