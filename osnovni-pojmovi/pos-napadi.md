@@ -6,7 +6,7 @@ Jedan od glavnih prioriteta blockchain-a je sigurnost i očekivano je da će se 
 
 Double spend(duplo trošenje) je jedan od problema koji blockchain tehnlogije pokušavaju da reše od njihovog nastanka.Većina(ako ne i svi) napadi pokušavaju da iskoriste duplo trošenje u nekom trenutku izvršavanja. U ovakvim napadima napadač pokušava da potroši istu količinu sredstava 2 ili više puta. Napadač pokušava da izvrši transakciju, sačeka drugu stranu da potvrdi da je transakcija uspešna, a zatim je poništi i pokuša da potroši ta ista sredstva u drugoj transakciji .<br/>
 
-### Sybil napad
+### [Sybil](/napadi/sybil.md)
 
 U sybil napadu napadač koristi više identita kako bi poremetio odluke u mreži. U blockchain-u ovo može izazvati razne probleme kao što su završavanje bloka, grananje blockchain-a, odabir validatora,itd. U PoW sistemima napadač bi morao posedovati različite identite sa dovoljnom računarskom snagom da bi imao uticaj na sistem. Protokol za postizanje koncenzusa pobija ovaj argument jer raspoređivanjem svojih računarskih resursa napadač ne bi povećao svoju računarsku moć. Umesto toga računarska moć napadača bi ostala ista. Slično tome, u PoS sistemima, napadača direktno sprečava protokol za postizanje koncenzusa. Proces izbora validatora i "glasačka moć" su srazmerni veličinom uloga kog napadač poseduje, te bi napadač imao istu "glasačku moć" i sa jednim i sa više identiteta.<br/>
 

@@ -12,7 +12,9 @@
 [[10] Quantum Attacks and Defenses for Proof-of-Stake](https://ieeexplore.ieee.org/abstract/document/9068181)
 [[11] Shijie Zhang, Jong-Hyouk Lee, "Eclipse-based Stake-Bleeding Attack"](https://dl.acm.org/doi/abs/10.1145/3327960.3332391)<br/>
 [[12] Eclipse Attack Meaning](https://www.ledger.com/academy/glossary/eclipse-attack).<br/>
-[[13] Resource Exhaustion Attacks on PoS](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf).<br/>
+[[13] MUBASHAR IQBAL, RAIMUNDAS MATULEVIČIUS, "Exploring Sybil and Double-Spending
+Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9435780")<br/>
+[[14] Resource Exhaustion Attacks on PoS](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf).<br/>
 
 ### To Do
 
