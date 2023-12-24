@@ -30,6 +30,6 @@ Cenzura u blockchain-u je zanimljiv problem je jer može biti posmatrana kao man
 
 U PoS sistemima validatori obično moraju "zaključati" određenu količinu kripto valute da bi učestvovali u procesu kreiranja blokova i validacije. Ako validatori nemaju šta da izgube(nothing to lose), to znači da se mogu ponašati maliciozno bez suočavanja sa značajnim finansijskim posledicama i to može predstavljati pretnju za sigurnost blockchain-a.
 
-### Long-range napadi
+### [Long-range napadi](/napadi/Long-range%20napadi.md)
 
 Long-range napadi su napadi gde napadač ide do početnog bloka(genesis block) i pravi nova grananja blockchain-a. Nova grana obično biva popunjena delimično ili potpuno drugačijom istorijom u odnosu na glavni lanac. Napad uspeva kada grana koja je napravljena od strane napadača postane glavna grana u blockchain-u. Long-range napadi mogu biti: jednostavni, posterior corruption i stake bleeding [[7]](https://sci-hub.se/10.1109/access.2019.2901858).
