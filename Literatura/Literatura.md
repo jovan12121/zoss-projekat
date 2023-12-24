@@ -12,6 +12,9 @@
 [[10] Quantum Attacks and Defenses for Proof-of-Stake](https://ieeexplore.ieee.org/abstract/document/9068181)
 [[11] Shijie Zhang, Jong-Hyouk Lee, "Eclipse-based Stake-Bleeding Attack"](https://dl.acm.org/doi/abs/10.1145/3327960.3332391)<br/>
 [[12] Eclipse Attack Meaning](https://www.ledger.com/academy/glossary/eclipse-attack).<br/>
+[[13] MUBASHAR IQBAL, RAIMUNDAS MATULEVIČIUS, "Exploring Sybil and Double-Spending
+Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9435780")<br/>
+
 ### To Do
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
