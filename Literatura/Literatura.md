@@ -10,11 +10,12 @@
 [[8] Wenting Li, Sebastien Andreina, Jens-Matthias Bohli, Ghassan Karame, "Securing Proof-Of-Stake Blockchain Protocols"](https://www.researchgate.net/publication/319647471_Securing_Proof-of-Stake_Blockchain_Protocols)<br/>
 [[9] Peter Gaži, Aggelos Kiayias, Alexander Russell, "Stake-Bleeding Attacks on Proof-of-Stake Blockchains"](https://sci-hub.se/10.1109/cvcbt.2018.00015)<br/>
 [[10] Quantum Attacks and Defenses for Proof-of-Stake](https://ieeexplore.ieee.org/abstract/document/9068181)
+[[11] Shijie Zhang, Jong-Hyouk Lee, "Eclipse-based Stake-Bleeding Attack"](https://dl.acm.org/doi/abs/10.1145/3327960.3332391)<br/>
+[[12] Eclipse Attack Meaning](https://www.ledger.com/academy/glossary/eclipse-attack).<br/>
 ### To Do
 
 - [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
 - [A Survey on Long-Range Attacks for Proof of Stake Protocols](https://ieeexplore.ieee.org/abstract/document/8653269)<br/>
 - [Securing Proof-of-Stake Blockchain Protocols](https://link.springer.com/chapter/10.1007/978-3-319-67816-0_17)<br/>
-- [Stake bleeding attack](https://dl.acm.org/doi/abs/10.1145/3327960.3332391)<br/>
 - [Formal Barriers to Longest-Chain Proof-of-Stake Protocols](https://dl.acm.org/doi/abs/10.1145/3328526.3329567)<br/>
 - [Blockchain Technology: Challenges and Security issues in Consensus algorithm](https://ieeexplore.ieee.org/abstract/document/9104132)
