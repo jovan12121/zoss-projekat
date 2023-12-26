@@ -15,6 +15,7 @@
 [[13] MUBASHAR IQBAL, RAIMUNDAS MATULEVIČIUS, "Exploring Sybil and Double-Spending
 Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9435780")<br/>
 [[14] Resource Exhaustion Attacks on PoS](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf).<br/>
+[[15] Assessing Blockchain Consensus and Security Mechanisms against the 51% Attack](https://www.mdpi.com/2076-3417/9/9/1788).<br/>
 
 ### To Do
 
