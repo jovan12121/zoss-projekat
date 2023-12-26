@@ -18,7 +18,7 @@ Bribery napad(short-range napad) se oslanja na podmićivanje validatora da rade 
 
 Liveness denial je forma Denial of Service napada u PoS sistemima. U ovakvom napadu, neki ili svi validatori namerno blokiraju transakcije tako što prestanu da objavljuju blokove. Time će doći do zastoja u blockchain-u, jer time prestaje validiranje novih blokova i oni neće biti objavljeni u blockchain-u.<br/>
 
-### 51% napad
+### [51% napad](/napadi/51%25-napad.md)
 
 51% napadi su pretnja svakom koncenzus protokolu. U PoW sistemima entitet koji ima većinu računarske moći u sistemu može preuzeti kontrolu nad celim sistemom. U PoS sistemima ovaj napada je idalje moguć ali uz drugačije posledice. Moguće je da jedan validator ili skup validatora imaju deo koji je veći od 51%(ako je u pitanju BFT PoS 34%), u tom slučaju napadač može kontrolisati odabir novih blokova, odobravanje transakcija ili čak pokušaj manipulacije istorijom blockchain-a.<br/>
 
@@ -33,3 +33,9 @@ U PoS sistemima validatori obično moraju "zaključati" određenu količinu krip
 ### [Long-range napadi](/napadi/Long-range%20napadi.md)
 
 Long-range napadi su napadi gde napadač ide do početnog bloka(genesis block) i pravi nova grananja blockchain-a. Nova grana obično biva popunjena delimično ili potpuno drugačijom istorijom u odnosu na glavni lanac. Napad uspeva kada grana koja je napravljena od strane napadača postane glavna grana u blockchain-u. Long-range napadi mogu biti: jednostavni, posterior corruption i stake bleeding [[7]](https://sci-hub.se/10.1109/access.2019.2901858).
+
+### [Kvantni napad](/napadi/kvantni-napad.md)
+Kvantni napad je napad koji koristi kvantne računare za rešavanje složenih matematičkih problema koji se koriste za šifrovanje podataka, i koji te probleme rešavaju znajačno brže od običnih računara. Uz primenu određenih algoritama mogu efikasno rešavati probleme pretrage i faktorizacije, što ugrožava sigurnost PoS sistema.
+
+### [Napadi iscrpljivanja resursa](/napadi/napadi-iscrpljivanja-resursa.md)
+Napad iscrpljivanja resursa iskorištava proces validacije PoS blokova, i dovodi do preopterećenja resursa na sistemu žrtve. Napad može prouzrokovati pad sistema, degradaciju performansi i novčane gubitke, a takođe može biti iskorišten i za neke složenije napade.
