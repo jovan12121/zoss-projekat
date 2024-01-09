@@ -14,7 +14,7 @@ U sybil napadu napadač koristi više identita kako bi poremetio odluke u mreži
 
 Bribery napad(short-range napad) se oslanja na podmićivanje validatora da rade na određenim blokovima ili granama. Time napadač može predstaviti proizvoljne transakcije validnim i platiti onda nepoštenim validatorima da ih potvrde. Plaćanjem jednakog ili većeg iznosa od nagrada za validaciju bloka(u slučaju da mreža poništi blok), pruža dovoljan podsticaj validatorima da rade za njega.<br/>
 
-### Liveness denial
+### [Liveness attack](/napadi/liveness-attack.md)
 
 Liveness denial je forma Denial of Service napada u PoS sistemima. U ovakvom napadu, neki ili svi validatori namerno blokiraju transakcije tako što prestanu da objavljuju blokove. Time će doći do zastoja u blockchain-u, jer time prestaje validiranje novih blokova i oni neće biti objavljeni u blockchain-u.<br/>
 
