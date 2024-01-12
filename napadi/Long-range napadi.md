@@ -1,8 +1,13 @@
 ## Long-range napadi
 
-Kao što je rečeno u [PoS napadi](/osnovni-pojmovi/pos-napadi.md), long-range su napadi u kojima napadač(i) pokušava da napravi alternativnu istoriju blockchain-a počevši od početnog bloka. Dele se na 3 vrste: jednostavni, posterior corruption i stake bleeding [[7]](https://sci-hub.se/10.1109/access.2019.2901858).
+Kao što je rečeno u [PoS napadi](/osnovni-pojmovi/pos-napadi.md), long-range su napadi u kojima napadač(i) pokušava da napravi alternativnu istoriju blockchain-a počevši od početnog bloka. Dele se na 3 vrste: jednostavni, posterior corruption i stake bleeding [[7]](https://sci-hub.se/10.1109/access.2019.2901858).<br/>
+Pre svega, da bi ovi napadi bili uspešni PoS sistemi moraju podržavati reogranizaciju blockchain-a. Pravilo najdužeg lanca(grane) je pravilo gde je grana sa najviše blokova glavna grana. <br/>
+U ovakvim napadima napadač pokušava da iskoristi bezbednosne prospuste sistema(kao što su neproveravanje vremenskih oznaka, nedovoljno kreiranje čekpointa, itd.) i uz to napadač iskorišćava pravilo nadjužeg lanca u svoju korist. Napadač u ovakvim napadima želi uzeti veći udeo u blockhain-u od onog koji zaslužuje (može preuzeti i ceo blockchain).
 
-Pre svega, da bi ovi napadi bili uspešni PoS sistemi moraju podržavati reogranizaciju blockchain-a. Pravilo najdužeg lanca(grane) je pravilo gde je grana sa najviše blokova glavna grana.
+
+Na slici ispod se nalazi stablo long-range napada.
+
+![Stablo long-range napada](../Literatura/slike/stabloLongRangeNapada.drawio.png)
 
 ### Jednostavni long-range napad
 
@@ -26,7 +31,7 @@ Pošto je čvor C jedini aktivni učesnik u grani koju je kreirao, on njome mož
 Opet ćemo posmatrati isti sistem kao u prošlom slučaju, uz razliku da čvor C nema mogućnost lažiranja vremenskih oznaka. Da bi promenio istoriju glavnog lanca(grane), mora generisati više blokova nego što ih ima u glavnoj grani, ali je čvor C ograničen činjenicom da ima fiksnu šansu za proizvodnju blokova.
 Da bi povećao svoju u takmičenju sa glavnim lancem, čvor C mora falsifikovati blokove nekog drugog validatora. U ovom slučaju ako se neki od čvorova složi da napadne sistem zajedno sa čvorom C, napad postaje poprilično jednostavan, jer bi 2 čvora imala više od 50% ukupnog  uloga, međutim ovo nije nužno slučaj.
 Da bismo razjasnili napad, moramo uvesti koncept rotacije validacionih čvorova. Zbog same prirode blockchain-a, mi nemamo nijednu statičku komponentu u sistemu osim početnog bloka. Validatori nisu izuzetak od ovog pravila, te validatore ne možemo smatrati statičkim, već se validatori moraju rotirati kako bi sistem bio pravičan. Osim toga, validatori imaju opciju povlačenja, a sistem ima mogućnost da ih rotira ili izbaci iz istoga ako se ne ponašaju pravilno. Na kraju, kada posmatramo čvor koji je pouzdan, njegova pouzdanost ne garantuje da će on ostati takav i kada napusti sistem.<br/>
-Recimo da čvor B odluli da se povuče iz sistema nakon što validira n blokova u glavnom lancu. Bob povlači svoj ulog, i od tada on nije više deo blokchain-a, ali njegovi blokovi jesu. Dok je čvor B bio validator, mogao je da koristi najbolje moguće mere za zaštitu i čuvanje njegovog ključa, međutim kada čvor B više nema ulog u sistemu, sigurnost njegovog privatnog ključa za validaciju blokova više nije prioritet za njega.<br/>
+Recimo da čvor B odluči da se povuče iz sistema nakon što validira n blokova u glavnom lancu. On povlači svoj ulog, i od tada on nije više deo blokchain-a, ali njegovi blokovi jesu. Dok je čvor B bio validator, mogao je da koristi najbolje moguće mere za zaštitu i čuvanje njegovog ključa, međutim kada čvor B više nema ulog u sistemu, sigurnost njegovog privatnog ključa za validaciju blokova više nije prioritet za njega.<br/>
 Važno je napomenuti da iako čvor B ne može potpisivati blokove jer više nije validator, on(ili bilo ko drugi sa njegovim ključevima) može potpisati prvih n blokova bilo koje grane tog blockchain-a. Praktično ovo znači da neko ko ima pristup ključevima čvora B može falsifikovati blokove koje je čvor B validirao. Pošto čvor B više nije deo sistema, nema nikakav ulog i nema nikakvu odvraćajuću meru da ne izvrši napad protiv blokchain-a. U praksi, napad čvora B bio bi da on potpše prvih n blokova na drugom lancu blockchain-a sa napadačem ili za njega.<br/>
 Na osnovu prethodno navednog, postoje 2 moguća scenarija za napad (napad se naziva Posterior Corruption). Ili čvor C "hakuje" čvor B i krade njegov privatni ključ, ili čvor C podmiti čvor B i on se pridružuje napadu. U oba slučaja, ključ čvora B poznat je poznat čvoru C, te čvor C može potpisivati validne blokove pretvarajući se da je čvor B, povećavajući svoje šanse da prestigne glavni lanac.<br/>
 
