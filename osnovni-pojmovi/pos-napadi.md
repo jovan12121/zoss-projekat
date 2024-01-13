@@ -2,7 +2,7 @@
 
 Jedan od glavnih prioriteta blockchain-a je sigurnost i očekivano je da će se svaki sistem suočiti sa napadima koji će pokušati da kompromituju koncenzus i ukradu sredstva od korisnika.<br/>
 
-### Double spend
+### [Double spend](#double-spending)
 
 Double spend(duplo trošenje) je jedan od problema koji blockchain tehnlogije pokušavaju da reše od njihovog nastanka.Većina(ako ne i svi) napadi pokušavaju da iskoriste duplo trošenje u nekom trenutku izvršavanja. U ovakvim napadima napadač pokušava da potroši istu količinu sredstava 2 ili više puta. Napadač pokušava da izvrši transakciju, sačeka drugu stranu da potvrdi da je transakcija uspešna, a zatim je poništi i pokuša da potroši ta ista sredstva u drugoj transakciji .<br/>
 
@@ -41,3 +41,6 @@ Kvantni napad je napad koji koristi kvantne računare za rešavanje složenih ma
 ### [Napadi iscrpljivanja resursa](/napadi/napadi-iscrpljivanja-resursa.md)
 
 Napad iscrpljivanja resursa iskorištava proces validacije PoS blokova, i dovodi do preopterećenja resursa na sistemu žrtve. Napad može prouzrokovati pad sistema, degradaciju performansi i novčane gubitke, a takođe može biti iskorišten i za neke složenije napade.
+
+### [Short selling napad](/napadi/short-selling-napad.md)
+Napad skraćivanjem ili shorting je složena strategija koja se koristi za manipulaciju tržištem kriptovaluta. Napadač prvo preuzima kontrolu nad značajnim delom uloga u PoS sistemu, zatim prodaje kriptovalutu po višoj ceni. Nakon toga sabotira sistem, dovodeći do pada vrednosti valute. Kada vrednost valute dovoljno opadne, napadač otkupljuje nazad valute po boljoj ceni i na taj način uspešno izvršava svoj napad.
