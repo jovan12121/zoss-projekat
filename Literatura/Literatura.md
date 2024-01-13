@@ -14,8 +14,10 @@
 [[12] Eclipse Attack Meaning](https://www.ledger.com/academy/glossary/eclipse-attack).<br/>
 [[13] MUBASHAR IQBAL, RAIMUNDAS MATULEVIČIUS, "Exploring Sybil and Double-Spending
 Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9435780")<br/>
-[[14] Resource Exhaustion Attacks on PoS](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf).<br/>
-[[15] Assessing Blockchain Consensus and Security Mechanisms against the 51% Attack](https://www.mdpi.com/2076-3417/9/9/1788).<br/>
+[[14] Resource Exhaustion Attacks on PoS](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf)<br/>
+[[15] Assessing Blockchain Consensus and Security Mechanisms against the 51% Attack](https://www.mdpi.com/2076-3417/9/9/1788)<br/>
+[[16] Proof-of-Stake at Stake: Predatory, Destructive Attack on PoS Cryptocurrencies](https://sci-hub.se/https://dl.acm.org/doi/abs/10.1145/3410699.3413791)<br/>
+[[17] Shorting attack: Predatory, destructive short selling on Proof-of-Stake cryptocurrencies](https://sci-hub.se/10.1002/cpe.6585)<br/>
 
 ### To Do
 
