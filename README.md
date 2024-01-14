@@ -17,7 +17,7 @@ Uzimajući samu kompleksnost i važnost ovog koncenzus algoritma u jednoj Blockc
 - [Sybil](/napadi/sybil.md)
 - [Short-selling](/napadi/short-selling-napad.md)
 - [Nothing at stake](/napadi/nothing-at-stake.md)
-- [Livness](/napadi/liveness-attack.md)
+- [Liveness](/napadi/liveness-attack.md)
 - [Kvantni napad (Quantum attack)](/napadi/kvantni-napad.md)
 - [51% napad](/napadi/51%25-napad.md)
 - [Napad iscrpljivanja resursa (Resource Exhaustion attack)](/napadi/napadi-iscrpljivanja-resursa.md)
