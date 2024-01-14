@@ -10,9 +10,9 @@ Double spend(duplo trošenje) je jedan od problema koji blockchain tehnlogije po
 
 U sybil napadu napadač koristi više identita kako bi poremetio odluke u mreži. U blockchain-u ovo može izazvati razne probleme kao što su završavanje bloka, grananje blockchain-a, odabir validatora,itd. U PoW sistemima napadač bi morao posedovati različite identite sa dovoljnom računarskom snagom da bi imao uticaj na sistem. Protokol za postizanje koncenzusa pobija ovaj argument jer raspoređivanjem svojih računarskih resursa napadač ne bi povećao svoju računarsku moć. Umesto toga računarska moć napadača bi ostala ista. Slično tome, u PoS sistemima, napadača direktno sprečava protokol za postizanje koncenzusa. Proces izbora validatora i "glasačka moć" su srazmerni veličinom uloga kog napadač poseduje, te bi napadač imao istu "glasačku moć" i sa jednim i sa više identiteta.<br/>
 
-### Bribery napad
+### [Stake grinding](/napadi/stake-grinding.md)
 
-Bribery napad(short-range napad) se oslanja na podmićivanje validatora da rade na određenim blokovima ili granama. Time napadač može predstaviti proizvoljne transakcije validnim i platiti onda nepoštenim validatorima da ih potvrde. Plaćanjem jednakog ili većeg iznosa od nagrada za validaciju bloka(u slučaju da mreža poništi blok), pruža dovoljan podsticaj validatorima da rade za njega.<br/>
+Stake grinding se dešava kada validator repetitivno generiše parove javnih i tajnih ključeva kako bi dobio odgovarajuću vrednost tajnog ključa koja bi mu omogućila da sam izabere sadržaj bloka.<br/>
 
 ### [Liveness attack](/napadi/liveness-attack.md)
 
@@ -43,4 +43,5 @@ Kvantni napad je napad koji koristi kvantne računare za rešavanje složenih ma
 Napad iscrpljivanja resursa iskorištava proces validacije PoS blokova, i dovodi do preopterećenja resursa na sistemu žrtve. Napad može prouzrokovati pad sistema, degradaciju performansi i novčane gubitke, a takođe može biti iskorišten i za neke složenije napade.
 
 ### [Short selling napad](/napadi/short-selling-napad.md)
+
 Napad skraćivanjem ili shorting je složena strategija koja se koristi za manipulaciju tržištem kriptovaluta. Napadač prvo preuzima kontrolu nad značajnim delom uloga u PoS sistemu, zatim prodaje kriptovalutu po višoj ceni. Nakon toga sabotira sistem, dovodeći do pada vrednosti valute. Kada vrednost valute dovoljno opadne, napadač otkupljuje nazad valute po boljoj ceni i na taj način uspešno izvršava svoj napad.
