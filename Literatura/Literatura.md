@@ -21,3 +21,5 @@ Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&a
 [[18] Low-cost attacks on Ethereum 2.0 by sub-1/3 stakeholders](https://arxiv.org/pdf/2203.01315.pdf)<br/>
 [[19] Two Attacks On Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)<br/>
 [[20] Review of Blockchain Technology Vulnerabilities and Blockchain-System Attacks](https://sci-hub.se/10.1109/fareastcon.2019.8934243)
+[[21] Ethereum Proof-of-Stake and the Probabilistic Bouncing Attack, Ulysse Pavloff, Yackolley Amoussou-Guenou,SaraTucci-Piergiovanni](https://arxiv.org/pdf/2210.16070.pdf)
+[[22] Bribery and stake grinding attacks](https://web.stanford.edu/class/archive/ee/ee374/ee374.1206/downloads/l18_notes.pdf)
