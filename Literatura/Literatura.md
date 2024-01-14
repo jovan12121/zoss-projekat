@@ -18,11 +18,6 @@ Risks in Blockchain Systems"]("https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&a
 [[15] Assessing Blockchain Consensus and Security Mechanisms against the 51% Attack](https://www.mdpi.com/2076-3417/9/9/1788)<br/>
 [[16] Proof-of-Stake at Stake: Predatory, Destructive Attack on PoS Cryptocurrencies](https://sci-hub.se/https://dl.acm.org/doi/abs/10.1145/3410699.3413791)<br/>
 [[17] Shorting attack: Predatory, destructive short selling on Proof-of-Stake cryptocurrencies](https://sci-hub.se/10.1002/cpe.6585)<br/>
-
-### To Do
-
-- [Proof-of-Stake Consensus Mechanisms for Future Blockchain Networks: Fundamentals, Applications and Opportunities](https://ieeexplore.ieee.org/abstract/document/8746079)<br/>
-- [A Survey on Long-Range Attacks for Proof of Stake Protocols](https://ieeexplore.ieee.org/abstract/document/8653269)<br/>
-- [Securing Proof-of-Stake Blockchain Protocols](https://link.springer.com/chapter/10.1007/978-3-319-67816-0_17)<br/>
-- [Formal Barriers to Longest-Chain Proof-of-Stake Protocols](https://dl.acm.org/doi/abs/10.1145/3328526.3329567)<br/>
-- [Blockchain Technology: Challenges and Security issues in Consensus algorithm](https://ieeexplore.ieee.org/abstract/document/9104132)
+[[18] Low-cost attacks on Ethereum 2.0 by sub-1/3 stakeholders](https://arxiv.org/pdf/2203.01315.pdf)<br/>
+[[19] Two Attacks On Proof-of-Stake GHOST/Ethereum](https://arxiv.org/pdf/2203.01315.pdf)<br/>
+[[20] Review of Blockchain Technology Vulnerabilities and Blockchain-System Attacks](https://sci-hub.se/10.1109/fareastcon.2019.8934243)
