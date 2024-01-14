@@ -62,6 +62,3 @@ Kako bi se osiguralo da validator ne bude maliciozan i lažira transakcije, zalo
 1. Bezbednost. Pošto se svako može priključiti mreži i dobiti šansu da bude validator, ukoliko bi se napravio bezbednosni propust u implementaciji, maliciozni korisnik bi veoma lako mogao da ga iskoristi bez potrebe za skupom opremom.
 2. Skalabilnost mreže. PoS je često kritikovan zbog skalabilnosti, jer često mehanizmi nisu dovoljno efikasni pri velikom broju transakcija, pa nekad PoS može imati sporije vreme procesiranja, a skuplje naknade za procesuiranu transakciju.
 
-### DPOS in detail
-
-### tabelarno poredjenje i razlozi
