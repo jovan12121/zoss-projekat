@@ -1,6 +1,6 @@
 ## Napadi iscrpljivanja resursa [[14]](https://fc19.ifca.ai/preproceedings/180-preproceedings.pdf)
 
-Napad iscrpljivanja resursa se odnosi na iskorištavanje procesa validacije PoS blokova, što dovodi do iscrpljivanja resursa na sistemu žrtve. Određene kriptovalute ne validiraju na adekvatan način dokaz o ulogu pre nego što dodele resurse podacima primljenim od vršnjaka (to je drugi čvor u mreži sa kojim se određeni čvor povezuje i komunicira). <br/> Zlonamerni akter to može iskoristiti iako ne poseduju nikakav ulog niti privilegovanu mrežnu poziciju. Napad se obavlja slanjem pogrešno formiranih, tj. deformisanih blokova koje žrtva zatim skladišti u RAM-u ili na disku. Rezultat toga je pad sistema žrtve i degradacija performansi zbog akumulacije nevažećih podataka. Pad sistema i degradacija performansi mogu poremetiti normalan rad mreže, što može dovesti do potencijalnih finansijskih gubitaka i gubitaka poverenja među korisnicima i zainteresovanim stranama. Takođe, napadač može pokušati da iskoristi ove napade kako bi izveo neki složeniji napad. Na primer, ako bi napadač naterao čvor da prihvati lažni lanac blokova kao validan, mogao bi potencijalno da izvrši dvostruko trošenje ili neki drugi napad.
+Napad iscrpljivanja resursa se odnosi na iskorištavanje procesa validacije PoS blokova, što dovodi do iscrpljivanja resursa na sistemu žrtve. Određene kriptovalute ne validiraju na adekvatan način dokaz o ulogu pre nego što dodele resurse podacima primljenim od vršnjaka (to je drugi čvor u mreži sa kojim se određeni čvor povezuje i komunicira). <br/> Zlonamerni akter to može iskoristiti ovu ranjivost iako ne poseduju nikakav ulog niti privilegovanu mrežnu poziciju. Napad se obavlja slanjem pogrešno formiranih, tj. deformisanih blokova koje žrtva zatim skladišti u RAM-u ili na disku. Rezultat toga je pad sistema žrtve i degradacija performansi zbog akumulacije nevažećih podataka. Pad sistema i degradacija performansi mogu poremetiti normalan rad mreže, što može dovesti do potencijalnih finansijskih gubitaka i gubitaka poverenja među korisnicima i zainteresovanim stranama. Takođe, napadač može pokušati da iskoristi ove napade kako bi izveo neki složeniji napad. Na primer, ako bi napadač naterao čvor da prihvati lažni lanac blokova kao validan, mogao bi potencijalno da izvrši dvostruko trošenje ili neki drugi napad.
 
 ### Napad na RAM
 
@@ -18,7 +18,7 @@ Na slici ispod je prikazan primer kreiranja laznih blokova gde je trenutni lanac
 
 ![](../Literatura/slike/napad-na-disk.jpg)
 
-### Mitigacije za zaštitu od napada
+### Mitigacije
 
 Neka jednostavna rešenja za zaštitu su:
 - Postavljanje kontrolnih tačaka na svakih K blokova, tako da čvor ne prihvata blokove koji se granaju dublje od K blokova
