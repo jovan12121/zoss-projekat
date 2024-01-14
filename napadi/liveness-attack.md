@@ -1,7 +1,7 @@
 ## Liveness attack
 
 U kontekstu blockchaina, liveness napadi su napadi u kojima maliciozni korisnik remeti normalan i redovan rad mreže, tako što cilja da ošteti mogućnost sistema da napravi progres i postigne konsenzus. Uglavnom funkcioniše tako što cilja da spreči ili odloži potvrde transakcija, kreiranje novih blokova ili izvršavanje smart contract-a.
-u daljem tekstu biće opisan primer "Bouncing" liveness napada u Ethereum PoS mehanizmu. Kako bi se precizno opisao napad, prvo ćemo definisati osnovne pojmove unutar mehanizma.
+u daljem tekstu biće opisan primer "Bouncing"[[21]](https://arxiv.org/pdf/2210.16070.pdf) liveness napada u Ethereum PoS mehanizmu. Kako bi se precizno opisao napad, prvo ćemo definisati osnovne pojmove unutar mehanizma.
 
 ### Osnovni pojmovi
 
